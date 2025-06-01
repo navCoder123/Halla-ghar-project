@@ -1,0 +1,129 @@
+* { margin: 0; padding: 0; box-sizing:border-box;}
+
+body {
+     margin: 0;
+     padding: 0;
+     background: #222;
+     width: 100%;
+ }
+ 
+.container {
+     width: 100%;
+     height: 0 auto;
+ }
+ 
+.header {
+     width: 100%;
+     height: 60px;
+     background: #111;
+     padding: 0;
+     margin: 0;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     overflow: hidden;
+ }
+ 
+ .header > .banner {
+     width: 20%;
+     height: 60px;
+     background: #eee;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background: transparent;
+  }
+  
+  .logo {
+    transform: scale(1.5);
+  }
+  
+.header > .c_name {
+     width: 45%;
+     height: 60px;
+     transform: scale(2.7);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: #fff;
+ }  
+ 
+ .c_name > h1 {
+    font: 20px monospace;
+ }
+ 
+ .header > .forms {
+     width: 35%;
+     height: 60px;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     gap: 4px;
+ }
+ 
+ button {
+     width: 60px;
+     height: 45px;
+     font: 14px serif;
+     border: none;
+     border-radius: 6px;
+ }
+ 
+ .login {
+    background: #444;
+    color: #fff;
+ }
+ 
+ .signup {
+    background: #00ff00;
+    color: #111;
+ }
+ 
+ .wrapper {
+    width: 100%;
+    height: 100vh;
+    background: #222;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 2px;
+ }
+ 
+ .wrapper > div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .box{
+   width: 80%;
+   display: flex;
+   flex-flow: column wrap;
+ }
+ 
+ .wrapper > div > article {
+  color: #fff;
+  width: 80%;
+  text-align: center;
+ }
+ 
+ p{
+   font: 20px;
+ }
+
+ .box1 {
+    width: 100%;
+    background: transparent;
+ }
+
+ .box1 > button {
+    width: 40%;
+    height: 50px;
+    background: #00cc00;
+    color: #111;
+    font: 20px serif;
+    border: none;
+    border-radius: 10px;
+ }
