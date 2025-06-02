@@ -86,15 +86,20 @@ body {
     background: #222;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 10px;
     padding: 2px;
  }
  
  .wrapper > div {
-    width: 100%;
+    width: 90%;
     display: flex;
+    padding: 4px;
     justify-content: center;
     align-items: center;
+    box-shadow: 2px 2px 7px 1px #1C6EA4;
+    border-radius: 10px;
+    
  }
  
  .box{
@@ -113,12 +118,7 @@ body {
    font: 20px;
  }
 
- .box1 {
-    width: 100%;
-    background: transparent;
- }
-
- .box1 > button {
+ .box > button {
     width: 40%;
     height: 50px;
     background: #00cc00;
@@ -126,4 +126,20 @@ body {
     font: 20px serif;
     border: none;
     border-radius: 10px;
+ }
+ 
+ svg {
+ position: fixed;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ boder: 2px solid red;
+ height: 10rem;
+ background: blur;
+ display: block;
+ }
+ 
+ .loder {
+  width: 100%;
+  height: 20vh;
  }
